@@ -54,21 +54,12 @@ body {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: none; /* Bỏ viền */
-    outline: none; /* Bỏ viền khi nhấp vào */
+    border: 1px solid #ccc;
     border-radius: 20px;
     overflow: hidden;
     color: #555;
     padding-right: 40px;
-    background-color: #f9f9f9; /* Màu nền tùy chỉnh nếu muốn */
-  }
-  
-  #search::placeholder {
-    color: transparent; /* Ẩn placeholder để không gây nhầm lẫn với văn bản chạy */
-  }
-  
-  #search:focus {
-    caret-color: black; /* Hiển thị thanh caret (|) khi nhấp chuột vào */
+    text-align: left;
   }
   
   .search-btn {
@@ -80,4 +71,3 @@ body {
     font-size: 18px;
     color: #555;
   }
-  
